@@ -76,8 +76,18 @@ Then, go to http://localhost:3333.
 
 Make sure you have Node.JS 16 and yarn installed.
 
-In the `word-mastermind` directory, install the dependencies using `yarn install`.
+Install dependencies:
+```
+yarn install
+```
 
-Run the server: `yarn start`.
+Run the server:
+```
+yarn start
+```
 
-Go to http://localhost:3333.
+Open the application:
+
+Go to your browser and navigate to http://localhost:3333
+
+
