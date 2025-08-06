@@ -83,14 +83,25 @@ body.dark .tile.correct {
 
 .keyboard {
     flex: 3;
+    width: 100%;
+}
+
+.keyboard-row {
+    display: flex;
+    width: 100%;
 }
 
 .btn.key {
+    flex: 1 0 auto;
     background-color: #ddd;
     margin: 3px;
     height: 2.5em;
     padding: 7px;
     font-family: monospace;
+}
+
+.btn.key.wide {
+    flex-grow: 1.5;
 }
 
 .btn.key.wrong {

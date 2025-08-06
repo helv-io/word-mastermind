@@ -221,6 +221,7 @@ const app = new Vue({
                 key: true,
                 right: this.gameState && this.gameState.rightKeys.has(key),
                 wrong: this.gameState && this.gameState.wrongKeys.has(key),
+                wide: key === 'ENTER' || key === '⌫ '
             };
         },
 
